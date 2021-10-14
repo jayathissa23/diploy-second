@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+button {
+  cursor: pointer; }
+
+html {
+  font-size: 0.9px; }
+
+body {
+  background: #FFFFFF;
+  width: 100vw;
+  position: relative; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+.nav {
+  position: fixed;
+  z-index: 3; }
+  .nav .wrapper {
+    width: 100vw;
+    height: 101rem;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 50rem 0rem 50rem;
+    position: relative; }
+    .nav .wrapper .mobile-nav {
+      position: absolute;
+      top: calc;
+      top: 29%;
+      left: 7%;
+      visibility: hidden; }
+      .nav .wrapper .mobile-nav .hamberg-icon {
+        width: 31rem;
+        height: 32rem; }
+    .nav .wrapper .logo {
+      width: 110rem;
+      height: 49rem;
+      font-family: DM Serif Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36rem;
+      line-height: 49rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000; }
+    .nav .wrapper .links {
+      color: red;
+      font-size: 21rem;
+      display: flex;
+      list-style: none;
+      cursor: pointer;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21rem;
+      line-height: 120%;
+      letter-spacing: -0.03em;
+      /* Main Black */
+      color: #181717; }
+      .nav .wrapper .links .Register-btn {
+        width: 136rem;
+        height: 28rem;
+        color: #fff;
+        background: #F7AC01;
+        border-radius: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15rem; }
+    .nav .wrapper .nav-link {
+      color: black;
+      margin-right: 25rem; }
+      .nav .wrapper .nav-link a{
+        text-decoration: none;
+        color: black;   
+      }
+
+.header {
+  width: 100vw;
+  min-height: 100vh; }
+  .header .wrapper {
+    background-image: url(assets/MChSQHxGZrQ.png);
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    transform: scale(0.83);
+    margin-top: 109rem;
+    border-radius: 0 0 99rem 65rem; }
+    .header .wrapper .container {
+      color: #fff;
+      font-size: 18rem;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 202rem 0 199rem;
+      height: 100%; }
+      .header .wrapper .container img {
+        margin-top: 118rem;
+        transform: scale(1.5); }
+      .header .wrapper .container h1 {
+        font-size: 66rem;
+        margin-top: 83rem; }
+      .header .wrapper .container p {
+        text-align: center;
+        font-size: 27rem; }
+
+.slide-nav-section {
+  font-size: 20rem;
+  background-color: #F6F6F6;
+  height: 40vh;
+  display: flex;
+  font-size: 36rem;
+  justify-content: space-around;
+  border-bottom-right-radius: 100%;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 101vw;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  z-index: 1; }
+  .slide-nav-section ul {
+    margin-top: calc(167rem - 44rem);
+    margin-left: calc(85rem - 196rem);
+    font-family: DM Sans; }
+    .slide-nav-section ul li {
+      list-style: none; }
+      .slide-nav-section ul li a {
+        text-decoration: none;
+        color: #000; }
+
+main section {
+  width: 100vw;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 116rem;
+	margin-top: 50rem;
+  }
+  main section .wrapper {
+    margin: 0 157rem 0 181rem;
+    padding: 76rem 36rem 0 43rem;
+    height: 50%;
+    display: flex; }
+    main section .wrapper .text-container {
+      font-size: 28rem;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 500; }
+      main section .wrapper .text-container .title {
+        background: #F1AA02;
+        color: #fff;
+        padding: 12rem 0rem 9rem 26rem;
+        margin-right: 27rem;
+        font-weight: bold;
+        font-size: 32px;
+        border-radius: 10rem; }
+      main section .wrapper .text-container .paragraph {
+        margin-top: 69rem;
+        margin-right: 48rem;
+        text-align: justify; }
+  main section .second-item-wrapper {
+    margin: 0 133rem 0 161rem; }
+    main section .second-item-wrapper .second-item-text-content {
+      margin-left: 27rem; }
+
+.overlay {
+  position: absolute; }
+
+footer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #280F13;
+  color: #fff;
+  display: flex;
+  overflow-y: hidden;
+  flex-direction: column; }
+  footer .wrapper {
+    font-family: DM Sans;
+    margin: 0 220rem 0 190rem; }
+  footer .email-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95rem; }
+    footer .email-container .title {
+      font-size: 28rem; }
+    footer .email-container .email-input {
+      display: flex;
+      position: relative; }
+      footer .email-container .email-input input {
+        border-radius: 39rem;
+        box-shadow: none;
+        width: 498rem;
+        padding-left: 34rem;
+        height: 65rem; }
+      footer .email-container .email-input button {
+        position: absolute;
+        top: 14rem;
+        left: 352rem;
+        width: 123rem;
+        height: 36rem;
+        border-radius: 22rem;
+        background: #F7AC01;
+        color: white;
+        border: none; }
+  footer .logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80rem; }
+    footer .logo .img {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      footer .logo .img img {
+        width: 115rem;
+        height: 68rem; }
+    footer .logo p {
+      font-size: 16rem;
+      display: flex;
+      justify-content: center;
+      margin-top: 5rem; }
+  footer .uni-name {
+    font-size: 22rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30rem; }
+  footer .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30rem; }
+    footer .links a {
+      text-decoration: none;
+      font-size: 20rem;
+      color: #fff;
+      margin-left: 68rem; }
+  footer .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40rem; }
+    footer .social-media img {
+      width: 29.92rem;
+      height: 24.84rem;
+      margin-left: 20rem; }
+  footer .copyright {
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 18rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 59rem; }
+
+@media (max-width: 2000px) {
+  main {
+    margin-top: -277rem; }
+  .header .wrapper .container p {
+    padding-bottom: 28rem; } }
+
+@media (max-width: 1439px) {
+  main {
+    margin-top: -103rem; } }
+
+@media (max-width: 1234px) {
+  main section .wrapper {
+    flex-direction: column; }
+    main section .wrapper .img-container {
+      margin-top: 37rem; }
+  main section .second-item-wrapper {
+    flex-flow: column-reverse; }
+    main section .second-item-wrapper .second-item-text-content {
+      margin-left: 0rem; } }
+
+@media (max-width: 1065px) {
+  main section .wrapper {
+    margin: 0px 17rem 0 55rem; } }
+
+@media (max-width: 991px) {
+  .header .wrapper .container {
+    margin: 0 90rem 0 90rem; } }
+
+@media (max-width: 894px) {
+  main {
+    margin-top: -113rem; }
+  footer {
+    margin-top: 0rem;
+    height: 89vh; }
+    footer .wrapper {
+      margin: 0 117rem 0 49rem; }
+    footer .email-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 47rem; }
+    footer .logo {
+      margin-top: 39rem; }
+      footer .logo .img img {
+        width: 171rem;
+        height: 106rem; } }
+
+@media (max-width: 600px) {
+  .nav .wrapper {
+    display: flex;
+    flex-direction: column; }
+    .nav .wrapper .mobile-nav {
+      visibility: inherit; }
+    .nav .wrapper .logo {
+      width: 100%;
+      font-size: 54rem;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 21rem; }
+    .nav .wrapper .links {
+      visibility: hidden; }
+  .slide-nav-section ul {
+    margin-top: calc(167rem - 72rem);
+    margin-left: calc(403rem - 517rem); }
+  footer .wrapper {
+    margin: 0px 22rem 0 17rem; }
+  footer .links {
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 89rem; }
+    footer .links a {
+      font-size: 20.5rem; }
+  footer .email-container .title {
+    font-size: 25rem; }
+  footer .email-container .email-input {
+    width: 84%;
+    margin-top: 11rem; }
+    footer .email-container .email-input button {
+      top: 27rem;
+      left: 351rem; }
+    footer .email-container .email-input input {
+      margin-top: 12rem; }
+  footer .copyright {
+    margin-top: 29rem; } }
+
+@media (max-width: 577px) {
+  html {
+    font-size: 0.75px; }
+  main section .wrapper .img-container {
+    margin-top: -29rem;
+    transform: scale(0.8);
+    margin-left: -74rem; } }
+
+@media (max-width: 454px) {
+  main {
+    margin-top: -275rem; }
+    main section .wrapper {
+      margin: 141px -38rem 0 16rem; } }
+
+@media (max-width: 468px) {
+  footer .email-container .email-input button {
+    left: 328rem; } }
+
+@media (max-width: 440px) {
+  footer .email-container .email-input button {
+    left: 299rem; } }
+
+@media (max-width: 415px) {
+  footer .email-container .email-input button {
+    left: 278rem; } }
+
+@media (max-width: 394px) {
+  footer .email-container .email-input button {
+    left: 256rem; } }
+
+@media (max-width: 380px) {
+  html {
+    font-size: 0.6px; }
+  main section .wrapper {
+    margin: 0px -38rem 0 -12rem; }
+    main section .wrapper .img-container {
+      transform: scale(0.78); } }
+
+@media (max-width: 379.5px) {
+  footer .email-container .email-input button {
+    left: 354rem; } }
+
+@media (max-width: 376px) {
+  main section .wrapper {
+    margin: 158px -38rem 0 16rem; }
+  footer .email-container .email-input button {
+    top: 34%;
+    left: 61%; } }
+
+@media (max-width: 375.5px) {
+  footer .email-container .email-input button {
+    left: 70%; } }

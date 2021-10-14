@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+button {
+  cursor: pointer; }
+
+html {
+  font-size: 0.9px; }
+
+body {
+  background: #FFFFFF;
+  width: 100vw;
+  position: relative; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+.nav {
+  position: fixed;
+  z-index: 3; }
+  .nav .wrapper {
+    width: 100vw;
+    height: 101rem;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 50rem 0rem 50rem;
+    position: relative; }
+    .nav .wrapper .mobile-nav {
+      position: absolute;
+      top: calc;
+      top: 29%;
+      left: 7%;
+      visibility: hidden; }
+      .nav .wrapper .mobile-nav .hamberg-icon {
+        width: 31rem;
+        height: 32rem; }
+    .nav .wrapper .logo {
+      width: 110rem;
+      height: 49rem;
+      font-family: DM Serif Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36rem;
+      line-height: 49rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000; }
+    .nav .wrapper .links {
+      color: red;
+      font-size: 21rem;
+      display: flex;
+      list-style: none;
+      cursor: pointer;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21rem;
+      line-height: 120%;
+      letter-spacing: -0.03em;
+      /* Main Black */
+      color: #181717; }
+      .nav .wrapper .links .Register-btn {
+        width: 136rem;
+        height: 28rem;
+        color: #fff;
+        background: #F7AC01;
+        border-radius: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15rem; }
+    .nav .wrapper .nav-link {
+      color: black;
+      margin-right: 25rem; }
+      .nav .wrapper .nav-link a{
+        text-decoration: none;
+        color: black;   
+      }      
+
+.header {
+  width: 100vw;
+  height: 80vh;
+  margin-top: 109rem; }
+  .header .wrapper {
+    background-image: url("assets/header-background.png");
+    background-size: cover;
+    background-position: left;
+    height: 90%;
+    transform: scale(0.9);
+    border-radius: 30rem; }
+
+.slide-nav-section {
+  font-size: 20rem;
+  background-color: #F6F6F6;
+  height: 40vh;
+  display: flex;
+  font-size: 36rem;
+  justify-content: space-around;
+  border-bottom-right-radius: 100%;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 101vw;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  z-index: 1; }
+  .slide-nav-section ul {
+    margin-top: calc(167rem - 44rem);
+    margin-left: calc(85rem - 196rem);
+    font-family: DM Sans; }
+    .slide-nav-section ul li {
+      list-style: none; }
+      .slide-nav-section ul li a {
+        text-decoration: none;
+        color: #000; }
+
+main section .form-section {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: DM Sans;
+  margin-top: 89rem;
+  font-weight: 400; }
+  main section .form-section .wrapper {
+    display: flex;
+    font-size: 28rem;
+    color: #fff;
+    justify-content: space-between;
+    margin: 0 243rem 99rem 193px; }
+    main section .form-section .wrapper .sign-in-text {
+      font-size: 55rem; }
+    main section .form-section .wrapper .register {
+      display: flex;
+      flex: 2;
+      flex-direction: column;
+      background: #F1AA02;
+      border-radius: 19rem;
+      padding: 72rem 66rem 0 97rem; }
+      main section .form-section .wrapper .register h1 {
+        font-size: 50rem;
+        padding-bottom: 22rem; }
+      main section .form-section .wrapper .register .first-paragraph {
+        padding-bottom: 34rem; }
+      main section .form-section .wrapper .register .second-paragraph {
+        padding-bottom: 12rem; }
+      main section .form-section .wrapper .register .social-media img {
+        margin-right: 17rem; }
+    main section .form-section .wrapper .sign-in {
+      background: #fff;
+      flex: 4; }
+      main section .form-section .wrapper .sign-in .wrapper {
+        color: #000000;
+        display: flex;
+        flex-direction: column;
+        margin: 87rem 84rem 0 104rem; }
+        main section .form-section .wrapper .sign-in .wrapper .start-row {
+          display: flex;
+          justify-content: space-between; }
+          main section .form-section .wrapper .sign-in .wrapper .start-row div .register-text {
+            color: #B87514; }
+        main section .form-section .wrapper .sign-in .wrapper form label {
+          margin-top: 2rem; }
+        main section .form-section .wrapper .sign-in .wrapper form input {
+          width: 98%;
+          border-radius: 9rem;
+          padding: 15rem 28rem 13rem 26rem;
+          font-family: DM Sans;
+          margin-bottom: 21rem;
+          font-size: 20rem; }
+        main section .form-section .wrapper .sign-in .wrapper form button {
+          background: #F1AA02;
+          padding: 14rem 25px 10px 39rem;
+          width: 98%;
+          border: none;
+          box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+          border-radius: 10rem;
+          margin-top: 38rem; }
+        main section .form-section .wrapper .sign-in .wrapper form .social-login {
+          display: flex;
+          margin-top: 54rem; }
+          main section .form-section .wrapper .sign-in .wrapper form .social-login a {
+            text-decoration: none; }
+          main section .form-section .wrapper .sign-in .wrapper form .social-login .google {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background: #F6F6F6;
+            padding: 11rem 20rem 14rem 22rem;
+            border-radius: 9rem;
+            color: #B87514;
+            font-size: 17rem;
+            width: 57%;
+            margin-right: 36rem; }
+            main section .form-section .wrapper .sign-in .wrapper form .social-login .google img {
+              margin-right: 19rem; }
+          main section .form-section .wrapper .sign-in .wrapper form .social-login .facebook {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background: #F6F6F6;
+            padding: 11rem 20rem 14rem 22rem;
+            border-radius: 9rem;
+            justify-content: center; }
+
+footer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #280F13;
+  color: #fff;
+  display: flex;
+  overflow-y: hidden;
+  flex-direction: column; }
+  footer .wrapper {
+    font-family: DM Sans;
+    margin: 0 220rem 0 190rem; }
+  footer .email-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95rem; }
+    footer .email-container .title {
+      font-size: 28rem; }
+    footer .email-container .email-input {
+      display: flex;
+      position: relative; }
+      footer .email-container .email-input input {
+        border-radius: 39rem;
+        box-shadow: none;
+        width: 498rem;
+        padding-left: 34rem;
+        height: 65rem; }
+      footer .email-container .email-input button {
+        position: absolute;
+        top: 14rem;
+        left: 352rem;
+        width: 123rem;
+        height: 36rem;
+        border-radius: 22rem;
+        background: #F7AC01;
+        color: white;
+        border: none; }
+  footer .logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80rem; }
+    footer .logo .img {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      footer .logo .img img {
+        width: 115rem;
+        height: 68rem; }
+    footer .logo p {
+      font-size: 16rem;
+      display: flex;
+      justify-content: center;
+      margin-top: 5rem; }
+  footer .uni-name {
+    font-size: 22rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30rem; }
+  footer .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30rem; }
+    footer .links a {
+      text-decoration: none;
+      font-size: 20rem;
+      color: #fff;
+      margin-left: 68rem; }
+  footer .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40rem; }
+    footer .social-media img {
+      width: 29.92rem;
+      height: 24.84rem;
+      margin-left: 20rem; }
+  footer .copyright {
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 18rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 59rem; }
+
+.overlay {
+  position: absolute; }
+
+@media (max-width: 1582px) {
+  main section .form-section .wrapper {
+    margin: 0 3rem 106rem 90px; }
+    main section .form-section .wrapper .sign-in .wrapper {
+      margin: 87rem 84rem 0 56rem; } }
+
+@media (max-width: 1182px) {
+  main section .form-section .wrapper {
+    font-size: 26rem; }
+    main section .form-section .wrapper .sign-in .wrapper .start-row {
+      flex-direction: column; }
+      main section .form-section .wrapper .sign-in .wrapper .start-row div {
+        margin-top: 22rem;
+        margin-bottom: 24rem; } }
+
+@media (max-width: 894px) {
+  footer {
+    margin-top: 0rem;
+    height: 89vh; }
+    footer .wrapper {
+      margin: 0 117rem 0 49rem; }
+    footer .email-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 47rem; }
+    footer .logo {
+      margin-top: 39rem; }
+      footer .logo .img img {
+        width: 171rem;
+        height: 106rem; } }
+
+@media (max-width: 781px) {
+  main section .form-section .wrapper {
+    font-size: 21rem;
+    margin: 0 3rem 77rem 28px; }
+    main section .form-section .wrapper .register {
+      padding: 72rem 26rem 0 41rem; }
+    main section .form-section .wrapper .sign-in .wrapper {
+      margin: 87rem 84rem 0 25rem; }
+      main section .form-section .wrapper .sign-in .wrapper form input {
+        width: 108%; } }
+
+@media (max-width: 700px) {
+  main section .form-section .wrapper {
+    flex-direction: column;
+    margin-left: 10rem;
+    font-size: 20rem; }
+    main section .form-section .wrapper .register {
+      padding: 72rem 26rem 51rem 20rem; } }
+
+@media (max-width: 600px) {
+  .nav .wrapper {
+    display: flex;
+    flex-direction: column; }
+    .nav .wrapper .mobile-nav {
+      visibility: inherit; }
+    .nav .wrapper .logo {
+      width: 100%;
+      font-size: 54rem;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 21rem; }
+    .nav .wrapper .links {
+      visibility: hidden; }
+  .slide-nav-section ul {
+    margin-top: calc(167rem - 72rem);
+    margin-left: calc(403rem - 517rem); }
+  footer .wrapper {
+    margin: 0px 22rem 0 17rem; }
+  footer .links {
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 89rem; }
+    footer .links a {
+      font-size: 20.5rem; }
+  footer .email-container .title {
+    font-size: 25rem; }
+  footer .email-container .email-input {
+    width: 84%;
+    margin-top: 11rem; }
+    footer .email-container .email-input button {
+      top: 27rem;
+      left: 321rem; }
+    footer .email-container .email-input input {
+      margin-top: 12rem; }
+  footer .copyright {
+    margin-top: 29rem; } }
+
+@media (max-width: 518px) {
+  footer .email-container .email-input button {
+    left: 295rem; } }
+
+@media (max-width: 490px) {
+  main section .form-section .wrapper .sign-in .wrapper form .social-login {
+    flex-direction: column; }
+    main section .form-section .wrapper .sign-in .wrapper form .social-login .google {
+      margin-bottom: 27rem;
+      padding-right: 8rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; } }
+
+@media (max-width: 487px) {
+  footer .email-container .email-input button {
+    left: 256rem; } }
+
+@media (max-width: 468px) {
+  footer .email-container .email-input button {
+    left: 257rem; } }
+
+@media (max-width: 450px) {
+  footer .email-container .email-input button {
+    left: 236rem; } }
+
+@media (max-width: 440px) {
+  footer .email-container .email-input button {
+    left: 225rem; } }
+
+@media (max-width: 415px) {
+  footer .email-container .email-input button {
+    left: 199rem; } }
+
+@media (max-width: 394px) {
+  footer .email-container .email-input button {
+    left: 195rem; } }
+
+@media (max-width: 379.5px) {
+  footer .email-container .email-input button {
+    left: 190rem;
+    transform: scale(0.85); } }
+
+@media (max-width: 376px) {
+  footer .email-container .email-input button {
+    top: 34%;
+    left: 61%; } }
